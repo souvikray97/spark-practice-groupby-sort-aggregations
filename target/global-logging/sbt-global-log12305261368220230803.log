@@ -1,0 +1,98 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.9.9 (Oracle Corporation Java 22.0.1)
+[debug] Load.defaultLoad until apply took 194.095317ms
+[debug]           Load.loadUnit: plugins took 117.701385ms
+[debug]           Load.loadUnit: defsScala took 0.604949ms
+[debug] [Loading] Scanning directory /home/sr7/LearnBigData/spark-practice2/project
+[debug]             Load.loadUnit: mkEval took 8.329767ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /home/sr7/LearnBigData/spark-practice2/project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 31.351979 ms
+[info] loading settings for project spark-practice2-build from plugins.sbt ...
+[debug]               Load.resolveProject(spark-practice2-build) took 71.300329ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id spark-practice2-build, base: /home/sr7/LearnBigData/spark-practice2/project, plugins: List(<none>))) took 129.7907ms
+[debug] [Loading] Done in /home/sr7/LearnBigData/spark-practice2/project, returning: (spark-practice2-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 950.650499ms
+[debug]           Load.loadUnit: cleanEvalClasses took 7.359742ms
+[debug]         Load.loadUnit(file:/home/sr7/LearnBigData/spark-practice2/project/, ...) took 1086.059662ms
+[debug]       Load.apply: load took 1282.675112ms
+[debug]       Load.apply: resolveProjects took 10.785488ms
+[debug]       Load.apply: finalTransforms took 100.021816ms
+[debug]       Load.apply: config.delegates took 12.476712ms
+[debug]       Load.apply: Def.make(settings)... took 709.155924ms
+[debug]       Load.apply: structureIndex took 166.244601ms
+[debug]       Load.apply: mkStreams took 1.593982ms
+[info] loading project definition from /home/sr7/LearnBigData/spark-practice2/project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 3615.8514ms
+[debug]     Load.loadUnit: defsScala took 0.006654ms
+[debug] [Loading] Scanning directory /home/sr7/LearnBigData/spark-practice2
+[debug]       Load.loadUnit: mkEval took 0.394525ms
+[debug] [Loading] Found root project root w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbtide.ConfigPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 2.928703 ms
+[info] loading settings for project root from build.sbt ...
+[debug]         Load.resolveProject(root) took 2.322223ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id root, base: /home/sr7/LearnBigData/spark-practice2, plugins: List(<none>))) took 7.01547ms
+[debug] [Loading] Done in /home/sr7/LearnBigData/spark-practice2, returning: (root)
+[debug]     Load.loadUnit: loadedProjectsRaw took 4130.556729ms
+[debug]     Load.loadUnit: cleanEvalClasses took 3.838943ms
+[debug]   Load.loadUnit(file:/home/sr7/LearnBigData/spark-practice2/, ...) took 7752.401308ms
+[debug] Load.apply: load took 7782.683261ms
+[debug] Load.apply: resolveProjects took 0.160578ms
+[debug] Load.apply: finalTransforms took 26.475844ms
+[debug] Load.apply: config.delegates took 0.758288ms
+[debug] Load.apply: Def.make(settings)... took 172.718641ms
+[debug] Load.apply: structureIndex took 66.595368ms
+[debug] Load.apply: mkStreams took 0.003409ms
+[info] set current project to spark-practice2 (in build file:/home/sr7/LearnBigData/spark-practice2/)
+[warn] there's a key that's not used by any other settings/tasks:
+[warn]  
+[warn] * root / idePackagePrefix
+[warn]   +- /home/sr7/LearnBigData/spark-practice2/build.sbt:8
+[warn]  
+[warn] note: a setting might still be used by a command; to exclude a key from this `lintUnused` check
+[warn] either append it to `Global / excludeLintKeys` or call .withRank(KeyRanks.Invisible) on the key
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(shell, None, None)
+[info] sbt server started at local:///home/sr7/.sbt/1.0/server/edbfb2176e3b43331898/sock
+[debug] Writing bsp connection file
+[info] started sbt server
